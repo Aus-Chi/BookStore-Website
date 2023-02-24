@@ -5,7 +5,7 @@
  <session-factory name="">
   <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
   <property name="hibernate.connection.password">fidko5caoij378u6</property>
-  <property name="hibernate.connection.url">jdbc:mysql://pk1l4ihepirw9fob.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/n2vppbiccxru5t2t?password=fidko5caoij378u6&amp;amp;user=s0vb3nxm5byz0g9w"</property>
+  <property name="hibernate.connection.url">jdbc:mysql://pk1l4ihepirw9fob.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/n2vppbiccxru5t2t?password=fidko5caoij378u6&amp;user=s0vb3nxm5byz0g9w"</property>
   <property name="hibernate.connection.username">s0vb3nxm5byz0g9w</property>
   <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
  </session-factory>
