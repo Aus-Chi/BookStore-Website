@@ -19,9 +19,11 @@ public class JpaDAO<T> {
 	
 	
 	static {
-		
+		try {
 		entityManagerFactory = Persistence.createEntityManagerFactory("BookStoreWebsite");
-		
+		}catch(Exception e) {
+			System.out.println(e);
+		}
 	}
 
 	public JpaDAO() {
