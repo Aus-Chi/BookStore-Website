@@ -14,12 +14,11 @@ import javax.persistence.Query;
 
 public class JpaDAO<T> {
 	
-	private static EntityManagerFactory entityManagerFactory;
+	private static EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("BookStoreWebsite");;
 	
 	
 	
 	
-		entityManagerFactory = Persistence.createEntityManagerFactory("BookStoreWebsite");
 		
 
 	public JpaDAO() {
