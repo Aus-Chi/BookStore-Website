@@ -12,12 +12,12 @@
   <property name="hibernate.hbm2ddl.auto">none</property>
   <property name="hibernate.search.autoregister_listeners">true</property>
   <property name="hibernate.validator.apply_to_ddl">false</property>
-  <mapping class="com.bookstoredb.entity2.Customer"/>
-  <mapping class="com.bookstoredb.entity2.BookOrder"/>
-  <mapping class="com.bookstoredb.entity2.Category"/>
-  <mapping class="com.bookstoredb.entity2.OrderDetail"/>
-  <mapping class="com.bookstoredb.entity2.Users"/>
-  <mapping class="com.bookstoredb.entity2.Review"/>
-  <mapping class="com.bookstoredb.entity2.Book"/>
+  <mapping class="com.bookstoredb.entity.Customer"/>
+  <mapping class="com.bookstoredb.entity.BookOrder"/>
+  <mapping class="com.bookstoredb.entity.Category"/>
+  <mapping class="com.bookstoredb.entity.OrderDetail"/>
+  <mapping class="com.bookstoredb.entity.Users"/>
+  <mapping class="com.bookstoredb.entity.Review"/>
+  <mapping class="com.bookstoredb.entity.Book"/>
  </session-factory>
 </hibernate-configuration>
