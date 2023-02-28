@@ -32,11 +32,11 @@ public class HomeServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		
 		
-		BookDAO bookDAO = new BookDAO();
+		//BookDAO bookDAO = new BookDAO();
 		
-		List<Book> listNewBooks = bookDAO.listNewBooks();
-		List<Book> listBestSellingBooks = bookDAO.listBestSellingBooks();
-		List<Book> listMostFavoredBooks = bookDAO.listMostFavoredBooks();
+		List<Book> listNewBooks = new BookDAO().listNewBooks();
+		List<Book> listBestSellingBooks = new BookDAO().listBestSellingBooks();
+		List<Book> listMostFavoredBooks = new BookDAO().listMostFavoredBooks();
 		
 		request.setAttribute("listNewBooks", listNewBooks);
 		request.setAttribute("listBestSellingBooks", listBestSellingBooks);
