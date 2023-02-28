@@ -8,7 +8,7 @@
 	<persistence-unit name="BookStoreWebsite">
 		<properties>
 			<property name="javax.persistence.jdbc.url"
-				value="jdbc:mysql://s0vb3nxm5byz0g9w:fidko5caoij378u6@pk1l4ihepirw9fob.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/n2vppbiccxru5t2t" />
+				value="jdbc:mysql://pk1l4ihepirw9fob.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/n2vppbiccxru5t2t?password=fidko5caoij378u6&amp;user=s0vb3nxm5byz0g9w" />
 			<property name="javax.persistence.jdbc.user" value="s0vb3nxm5byz0g9w" />
 			<property name="javax.persistence.jdbc.password" value="fidko5caoij378u6" />
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
