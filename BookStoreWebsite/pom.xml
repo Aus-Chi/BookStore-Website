@@ -18,6 +18,15 @@
 				</configuration>
 			</plugin>
 			<plugin>
+			<groupId>com.heroku.sdk</groupId>
+			<artifactId>heroku-maven-plugin</artifactId>
+			<configuration>
+			<appName>evergreenstore</appName>
+			
+			</configuration>
+			<version>3.0.3</version>
+		</plugin>
+			<plugin>
 				<artifactId>maven-war-plugin</artifactId>
 				<version>3.0.0</version>
 				<configuration>
