@@ -45,7 +45,7 @@ import javax.persistence.UniqueConstraint;
 				+ " Category c ON b.category.categoryId = c.categoryId and c.categoryId = :catId")
 
 })
-@Table(name = "book", catalog = "heroku_1677bc7a67d3269", uniqueConstraints = @UniqueConstraint(columnNames = "title"))
+@Table(name = "book", catalog = "heroku_56c718d0cfb0727", uniqueConstraints = @UniqueConstraint(columnNames = "title"))
 public class Book implements java.io.Serializable {
 
 	private int bookId;
