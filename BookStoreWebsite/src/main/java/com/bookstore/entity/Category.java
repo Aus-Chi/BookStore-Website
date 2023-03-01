@@ -30,7 +30,7 @@ import javax.persistence.Table;
 		
 		)
 
-@Table(name = "category", catalog = "heroku_1677bc7a67d3269")
+@Table(name = "category", catalog = "heroku_56c718d0cfb0727")
 public class Category implements java.io.Serializable {
 
 	private Integer categoryId;
