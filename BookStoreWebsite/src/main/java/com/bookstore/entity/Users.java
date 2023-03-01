@@ -26,7 +26,7 @@ import javax.persistence.Table;
 		
 		)
 
-@Table(name = "\"users\"", catalog = "n2vppbiccxru5t2t")
+@Table(name = "\"users\"", catalog = "heroku_1677bc7a67d3269")
 public class Users implements java.io.Serializable {
 
 	private Integer userId;
