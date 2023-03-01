@@ -28,7 +28,7 @@ import javax.persistence.Transient;
  */
 @SuppressWarnings("serial")
 @Entity
-@Table(name = "book_order", catalog = "n2vppbiccxru5t2t")
+@Table(name = "book_order", catalog = "heroku_1677bc7a67d3269")
 @NamedQueries({
 	@NamedQuery(name = "BookOrder.findAll", query = "select bo from BookOrder bo order by bo.orderDate desc"),
 	@NamedQuery(name = "BookOrder.countAll", query = "select count(*) from BookOrder bo"),
