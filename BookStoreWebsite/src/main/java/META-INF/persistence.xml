@@ -8,9 +8,9 @@
 	<persistence-unit name="BookStoreWebsite">
 		<properties>
 			<property name="javax.persistence.jdbc.url"
-				value="jdbc:mysql://bba4bda261021f:2601dab0@us-cdbr-east-06.cleardb.net/heroku_1677bc7a67d3269?reconnect=true" />
+				value="jdbc:mysql://us-cdbr-east-06.cleardb.net/heroku_1677bc7a67d3269?reconnect=true" />
 			<property name="javax.persistence.jdbc.user" value="bba4bda261021f" />
-			<property name="javax.persistence.jdbc.password" value="2601dab0 " />
+			<property name="javax.persistence.jdbc.password" value="2601dab0" />
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
 			<property name="hibernate.show_sql" value="true" />
 			<property name="hibernate.format_sql" value="true" />
