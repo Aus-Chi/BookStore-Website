@@ -5,8 +5,8 @@
  <session-factory name="">
   <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
   <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-  <property name="hibernate.connection.password">2601dab0 </property>
-  <property name="hibernate.connection.url">jdbc:mysql://bba4bda261021f:2601dab0@us-cdbr-east-06.cleardb.net/heroku_1677bc7a67d3269?reconnect=true</property>
+  <property name="hibernate.connection.password">2601dab0</property>
+  <property name="hibernate.connection.url">jdbc:mysql://us-cdbr-east-06.cleardb.net/heroku_1677bc7a67d3269?reconnect=true</property>
   <property name="hibernate.connection.username">bba4bda261021f</property>
   <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
   <property name="hibernate.hbm2ddl.auto">none</property>
